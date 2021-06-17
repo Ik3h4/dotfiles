@@ -1,0 +1,4 @@
+ln -s ${HOME}/dotfiles/init.vim ${HOME}/.config/nvim/init.vim
+ln -s ${HOME}/dotfiles/.zshrc ${HOME}/.zshrc
+ln -s ${HOME}/dotfiles/.tigrc ${HOME}/.tigrc
+
