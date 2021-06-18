@@ -25,8 +25,10 @@ endif
 call dein#add('neoclide/coc.nvim', { 'merged': 0 })
 call dein#add('preservim/nerdtree')
 call dein#add('cohama/lexima.vim')
-call dein#add('altercation/vim-colors-solarized')
-call dein#add('overcache/NeoSolarized')
+call dein#add('haishanh/night-owl.vim')
+" call dein#add('altercation/vim-colors-solarized')
+" call dein#add('overcache/NeoSolarized')
+" call dein#add('jdkanani/vim-material-theme')
 " Required:
 call dein#end()
 
@@ -288,10 +290,13 @@ set wildmode=longest,full
 " シンタックスハイライトの有効化
 syntax enable
 set termguicolors
+set background=dark
 "colorscheme solarized
 "let g:solarized_termcolors=256
-colorscheme NeoSolarized
-set background=dark
+"colorscheme NeoSolarized
+"colorscheme material-theme
+colorscheme night-owl
+let g:lightline = { 'colorscheme': 'nightowl' }
 
 " --------------------------------------------------------------
 " Tab系
