@@ -1,0 +1,17 @@
+#ubuntu nvim
+sudoadd-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
+sudo apt-get install neovim
+
+pip3 install -U neovim
+
+#nodejs(coc.dein)
+curl -sLinstall-node.now.sh/lts | zsh
+npm install -g neovim
+
+#dein
+curl https:/raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+# For example, we just use `~/.cache/dein` as installation directory
+sh ./installer.sh ~/.cache/dein
+
+

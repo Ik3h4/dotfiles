@@ -209,3 +209,4 @@ fi
 #fi
 
 alias t='tmux'
+alias vim='nvim'
