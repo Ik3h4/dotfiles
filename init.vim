@@ -165,4 +165,5 @@ nnoremap sv :<C-u>vs<CR><C-w>l
 inoremap jj <Esc>
 inoremap <silent> <Esc> <Esc>:call system('fcitx-remote -c')<CR>
 
-
+" Windows terminal C-v to v
+nnoremap v <C-v>
